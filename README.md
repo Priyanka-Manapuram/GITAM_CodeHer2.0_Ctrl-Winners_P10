@@ -41,6 +41,6 @@ The project focuses on **simplicity, accessibility, and gentle self-care**, maki
 - **GitHub** – Code hosting and collaboration  
 
 ---
-
+https://priyanka-manapuram.github.io/GITAM_CodeHer2.0_Ctrl-Winners_P10/
 ---
 
