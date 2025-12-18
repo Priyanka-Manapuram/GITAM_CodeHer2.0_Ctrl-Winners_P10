@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reflect – Gentle Journaling</title>
+  <link rel="stylesheet" href="reflect.css">
+</head>
+<body>
+  <div class="container">
+    <div class="top">
+      <div class="logo">🌿 Mindfull Moments</div>
+      <div class="safe">
+        <label>
+          <span>Safe mode</span>
+          <input type="checkbox" id="safeToggle">
+        </label>
+      </div>
+    </div>
+
+    <div class="subtitle">✍️ Let's reflect together</div>
+    <h1>A moment of gentle reflection</h1>
+    <p class="note">No pressure. No judgment. Just you and your thoughts.</p>
+
+    <div class="card">
+      <label for="journal">What's been sitting heavy on your mind?</label>
+      <textarea id="journal" placeholder="Write whatever comes to mind..."></textarea>
+      <div class="pagination">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+      <button id="continueBtn">Continue →</button>
+    </div>
+
+    <div class="back" onclick="goBack()">← Back to options</div>
+    <div class="footer">A quiet space for loud emotions</div>
+  </div>
+
+  <script src="reflect.js"></script>
+</body>
+</html>
+

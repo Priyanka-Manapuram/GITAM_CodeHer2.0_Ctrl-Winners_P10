@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stillness – Breathing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="breathing.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="top">
+      <div class="logo">🌿 Mindfull Moments</div>
+      <div class="safe">
+        <label>
+          Safe mode
+          <input type="checkbox" id="safeToggle">
+        </label>
+      </div>
+    </div>
+
+    <div class="subtitle">Just 30 seconds of gentle breathing</div>
+    <h1>Let's calm your nervous system</h1>
+
+    <div class="circle" id="circle">
+      <span id="count">Ready?</span>
+    </div>
+
+    <button id="startBtn">Begin breathing ✨</button>
+    <div class="back" onclick="goBack()">← Back to options</div>
+    <div class="footer">A quiet space for loud emotions</div>
+  </div>
+
+  <script src="breathing.js"></script>
+</body>
+</html>

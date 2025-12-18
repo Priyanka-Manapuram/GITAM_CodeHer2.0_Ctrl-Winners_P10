@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stillness</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo">
+      🌿 <span>MindFull Moments</span>
+    </div>
+
+    <div class="safe-mode">
+      👁️ <span>Safe mode</span>
+      <label class="switch">
+        <input type="checkbox" id="safeToggle">
+        <span class="slider"></span>
+      </label>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <h1>How are you feeling right now?</h1>
+    <p class="subtitle">There's no wrong answer here</p>
+
+    <div class="grid">
+  <div class="card" data-mood="stressed" onclick="help(this)">
+    🌧️
+    <span>Stressed</span>
+  </div>
+
+  <div class="card" data-mood="empty" onclick="help(this)">
+    😶
+    <span>Empty</span>
+  </div>
+
+  <div class="card" data-mood="sad" onclick="help(this)">
+    😔
+    <span>Sad</span>
+  </div>
+
+  <div class="card" data-mood="angry" onclick="help(this)">
+    😤
+    <span>Angry</span>
+  </div>
+
+  <div class="card" data-mood="okay" onclick="help(this)">
+    😊
+    <span>Okay</span>
+  </div>
+
+  <div class="card" data-mood="peaceful" onclick="help(this)">
+    😌
+    <span>Peaceful</span>
+  </div>
+</div>
+
+<!-- MESSAGE -->
+<div id="comfort-box">
+  <p id="comfort-text"></p>
+</div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    A quiet space for loud emotions
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #eef4f8;
+  color: #2f3a45;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 30px 20px 60px;
+  text-align: center;
+}
+
+/* Header */
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.safe {
+  background: white;
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-size: 14px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+/* Title */
+.heart {
+  width: 52px;
+  height: 52px;
+  margin: auto;
+  background: #f5e8e4;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: #9b6fd6;
+  margin-bottom: 25px;
+}
+
+h1 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #6b7a88;
+  font-size: 17px;
+  margin-bottom: 50px;
+}
+
+/* Cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.card {
+  background: white;
+  border-radius: 24px;
+  padding: 35px 25px;
+  box-shadow: 0 10px 35px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+
+.phone { background: #ece9f9; color: #7a6ee6; }
+.chat  { background: #ece9f9; color: #7a6ee6; }
+.med   { background: #f3e8df; color: #d98b5f; }
+
+.card h3 {
+  margin: 10px 0 6px;
+  font-size: 18px;
+}
+
+.card p {
+  margin: 0;
+  color: #6b7a88;
+  font-size: 14px;
+}
+
+/* Quote */
+.quote {
+  max-width: 700px;
+  margin: 50px auto;
+  background: white;
+  padding: 35px;
+  border-radius: 26px;
+  box-shadow: 0 10px 35px rgba(0,0,0,0.08);
+  font-style: italic;
+  color: #4b5661;
+}
+
+/* Back */
+.back {
+  margin-top: 40px;
+  color: #6b7a88;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.footer {
+  margin-top: 50px;
+  color: #9aa6b2;
+  font-size: 13px;
+}
